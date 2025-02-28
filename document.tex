@@ -1,0 +1,249 @@
+\documentclass[a4paper]{article}
+\usepackage[a4paper, margin=0.5cm]{geometry}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+
+% Define AeroFarms colors
+\definecolor{aeroblue}{RGB}{0, 178, 214}
+\definecolor{aerogreen}{RGB}{127, 214, 133}
+\definecolor{lightgreen}{RGB}{240, 249, 240}
+\definecolor{darkgreen}{RGB}{63, 126, 68}
+\definecolor{burgundycolor}{RGB}{143, 24, 56}
+
+\begin{document}
+	\pagestyle{empty}
+	
+	% Header with logo
+	\begin{tcolorbox}[colback=white, boxrule=0pt, top=0cm, bottom=0cm]
+		\begin{center}
+			{\fontsize{30}{36}\selectfont \textcolor{aeroblue}{AERO}\textcolor{aerogreen}{FARMS}\textsuperscript{\textregistered}}\\[0.5cm]
+			{\large\bfseries\textcolor{gray}{Lauksaimniecības Pārveidošana Ilgtspējīgai Nākotnei}}
+		\end{center}
+	\end{tcolorbox}
+	
+	% Tagline banner
+	\begin{tcolorbox}[colback=aeroblue, boxrule=0pt, top=0.1cm, bottom=0.1cm]
+		\begin{center}
+			{\large\itshape\textcolor{white}{"Labāko iespējamo augu audzēšana cilvēces uzlabošanai"}}
+		\end{center}
+	\end{tcolorbox}
+	
+	% Two-column layout for main content
+	\vspace{0pt} % Important to prevent extra vertical space
+	\begin{tikzpicture}[remember picture, overlay]
+		\node[anchor=north west, inner sep=0] at (current page.north west) {
+			\begin{minipage}{\paperwidth}
+				\vspace{3.9cm} % Space after header and tagline
+				
+				% Left Column: Environmental Impact
+				\begin{minipage}{0.47\textwidth}
+					\begin{tcolorbox}[colback=lightgreen, rounded corners, boxrule=0pt, top=0.3cm, left=0.3cm, right=0.3cm]
+						{\large\bfseries\textcolor{aeroblue}{MŪSU IETEKME UZ VIDI}}
+						\rule{\linewidth}{1.5pt}
+						
+						\vspace{0.5cm}
+						% Water Usage
+						\begin{tcolorbox}[colback=white, rounded corners, boxrule=1pt, colframe=aeroblue]
+							{\bfseries\textcolor{aeroblue}{95\% MAZĀK ŪDENS}}\\
+							Slēgtā cikla aeroponiskā sistēma izmanto daļu no tradicionālā lauksaimniecības ūdens
+						\end{tcolorbox}
+						
+						\vspace{0.3cm}
+						% Land Usage
+						\begin{tcolorbox}[colback=white, rounded corners, boxrule=1pt, colframe=aerogreen]
+							{\bfseries\textcolor{aerogreen}{99\% MAZĀK ZEMES}}\\
+							Vertikālā lauksaimniecība optimizē telpu un saglabā dabiskos biotopus
+						\end{tcolorbox}
+						
+						\vspace{0.3cm}
+						% Productivity
+						\begin{tcolorbox}[colback=white, rounded corners, boxrule=1pt, colframe=aeroblue]
+							{\bfseries\textcolor{aeroblue}{390x RAŽĪGUMS}}\\
+							Aug visu gadu neatkarīgi no laika apstākļiem vai klimatiskajiem apstākļiem
+						\end{tcolorbox}
+					\end{tcolorbox}
+				\end{minipage}\hfill
+				%
+				% Right Column: Technology
+				\begin{minipage}{0.47\textwidth}
+					\begin{tcolorbox}[colback=lightgreen, rounded corners, boxrule=0pt, top=0.3cm, left=0.3cm, right=0.3cm]
+						{\large\bfseries\textcolor{aeroblue}{MŪSU TEHNOLOĢIJAS}}
+						\rule{\linewidth}{1.5pt}
+						
+						\vspace{0.5cm}
+						% Aeroponic Advantage
+						\begin{tcolorbox}[colback=white, rounded corners, boxrule=1pt, colframe=aeroblue]
+							{\bfseries\textcolor{aeroblue}{AEROPONIC ADVANTAGE\texttrademark}}\\
+							Patentētā miglošanas sistēma nodrošina precīzas barības vielas augu saknēm
+						\end{tcolorbox}
+						
+						\vspace{0.3cm}
+						% Custom LED Lighting
+						\begin{tcolorbox}[colback=white, rounded corners, boxrule=1pt, colframe=aerogreen]
+							{\bfseries\textcolor{aerogreen}{PIELĀGOTS LED APGAISMOJUMS}}\\
+							Optimizēts gaismas spektrs, intensitāte un frekvence augu augšanai
+						\end{tcolorbox}
+						
+						\vspace{0.3cm}
+						% Smart Data Systems
+						\begin{tcolorbox}[colback=white, rounded corners, boxrule=1pt, colframe=aeroblue]
+							{\bfseries\textcolor{aeroblue}{VIEDĀS DATU SISTĒMAS}}\\
+							AI un paredzamā analītika optimāliem augšanas apstākļiem
+						\end{tcolorbox}
+					\end{tcolorbox}
+				\end{minipage}
+				
+				\vspace{0.2cm}
+				
+				% SDG Section Title
+				\begin{tcolorbox}[colback=aeroblue, boxrule=0pt, top=0.2cm, bottom=0.2cm]
+					\begin{center}
+						{\large\bfseries\textcolor{white}{ATBALSTĪTI ANO ILGTSPĒJĪGAS ATTĪSTĪBAS MĒRĶI}}
+					\end{center}
+				\end{tcolorbox}
+				
+				% SDG Icons using actual images
+				\begin{minipage}{\textwidth}
+					\centering
+					% First row of SDG icons
+					\begin{minipage}{0.13\textwidth}
+						\includegraphics[width=\textwidth]{sdg1.jpg}
+					\end{minipage}
+					\begin{minipage}{0.13\textwidth}
+						\includegraphics[width=\textwidth]{sdg2.jpg}
+					\end{minipage}
+					\begin{minipage}{0.13\textwidth}
+						\includegraphics[width=\textwidth]{sdg3.jpg}
+					\end{minipage}
+					\begin{minipage}{0.13\textwidth}
+						\includegraphics[width=\textwidth]{sdg4.jpg}
+					\end{minipage}
+					\begin{minipage}{0.13\textwidth}
+						\includegraphics[width=\textwidth]{sdg5.jpg}
+					\end{minipage}
+					\begin{minipage}{0.13\textwidth}
+						\includegraphics[width=\textwidth]{sdg6.jpg}
+					\end{minipage}
+				\end{minipage}
+				
+				\vspace{0.2cm}
+				
+				% SDG Second row icons
+				\begin{minipage}{\textwidth}
+					\centering
+					\begin{minipage}{0.13\textwidth}
+						\includegraphics[width=\textwidth]{sdg8.jpg}
+					\end{minipage}
+					\begin{minipage}{0.13\textwidth}
+						\includegraphics[width=\textwidth]{sdg9.jpg}
+					\end{minipage}
+					\begin{minipage}{0.13\textwidth}
+						\includegraphics[width=\textwidth]{sdg11.jpg}
+					\end{minipage}
+					\begin{minipage}{0.13\textwidth}
+						\includegraphics[width=\textwidth]{sdg13.jpg}
+					\end{minipage}
+					\begin{minipage}{0.13\textwidth}
+						\includegraphics[width=\textwidth]{sdg14.jpg}
+					\end{minipage}
+					\begin{minipage}{0.13\textwidth}
+						\includegraphics[width=\textwidth]{sdg15.jpg}
+					\end{minipage}
+				\end{minipage}
+				
+				\vspace{0.2cm}
+				
+				% Environmental Challenges Section
+				\begin{tcolorbox}[colback=darkgreen, boxrule=0pt, top=0.2cm, bottom=0.2cm]
+					\begin{center}
+						{\large\bfseries\textcolor{white}{KRITISKO VIDES IZAICINĀJUMU RISINĀŠANA}}
+					\end{center}
+				\end{tcolorbox}
+				
+				\vspace{0cm}
+				
+				% Environmental Challenges with Images
+				\begin{minipage}{\textwidth}
+					\centering
+					
+					% Population Growth
+					\begin{minipage}{0.18\textwidth}
+						\begin{tcolorbox}[colback=white, rounded corners, boxrule=1pt, colframe=aerogreen]
+							\centering
+							\raisebox{-0.5\height}{\includegraphics[width=0.9\textwidth]{population_crowd.jpg}}
+							\vspace{0.1cm}
+							\rule{0.9\linewidth}{0.5pt}
+							{\footnotesize\bfseries Iedzīvotāju skaita pieaugums}\\
+							{\tiny 7,7+ miljardi cilvēku}
+						\end{tcolorbox}
+					\end{minipage}
+					\hfill
+					% Water Scarcity
+					\begin{minipage}{0.18\textwidth}
+						\begin{tcolorbox}[colback=white, rounded corners, boxrule=1pt, colframe=aeroblue]
+							\centering
+							\raisebox{-0.5\height}{\includegraphics[width=0.9\textwidth]{water_scarcity.jpg}}
+							\vspace{0.1cm}
+							\rule{0.9\linewidth}{0.5pt}
+							{\footnotesize\bfseries Ūdens trūkums}\\
+							{\tiny Pieaugoša krīze}
+						\end{tcolorbox}
+					\end{minipage}
+					\hfill
+					% Land Loss 
+					\begin{minipage}{0.18\textwidth}
+						\begin{tcolorbox}[colback=white, rounded corners, boxrule=1pt, colframe=aerogreen]
+							\centering
+							\raisebox{-0.5\height}{\includegraphics[width=0.9\textwidth]{land_loss.jpg}}
+							\vspace{0.1cm}
+							\rule{0.9\linewidth}{0.5pt}
+							{\footnotesize\bfseries Auglīgās zemes zudums}\\
+							{\tiny 1/3 zaudēta 40 gados}
+						\end{tcolorbox}
+					\end{minipage}
+					\hfill
+					% Pesticide Use
+					\begin{minipage}{0.18\textwidth}
+						\begin{tcolorbox}[colback=white, rounded corners, boxrule=1pt, colframe=aeroblue]
+							\centering
+							\raisebox{-0.5\height}{\includegraphics[width=0.9\textwidth]{pesticide_plane.jpg}}
+							\vspace{0.1cm}
+							\rule{0.9\linewidth}{0.5pt}
+							{\footnotesize\bfseries Pesticīdu lietošana}\\
+							{\tiny 70\% piesārņojums}
+						\end{tcolorbox}
+					\end{minipage}
+					\hfill
+					% Food Waste
+					\begin{minipage}{0.18\textwidth}
+						\begin{tcolorbox}[colback=white, rounded corners, boxrule=1pt, colframe=aerogreen]
+							\centering
+							\raisebox{-0.5\height}{\includegraphics[width=0.9\textwidth]{food_waste.jpg}}
+							\vspace{0.1cm}
+							\rule{0.9\linewidth}{0.5pt}
+							{\footnotesize\bfseries Pārtikas atkritumi}\\
+							{\tiny 33\% izšķērdēti globāli}
+						\end{tcolorbox}
+					\end{minipage}
+					
+				\end{minipage}
+				
+				\vspace{0.6cm}
+				
+				% AeroFarms solutions section
+				\begin{tcolorbox}[colback=lightgreen, rounded corners, boxrule=0pt]
+					\begin{center}
+						{\large\bfseries\textcolor{aeroblue}{ www.aerofarms.com | Uzņēmējdarbība kā pozitīvu pārmaiņu virzītājspēks}}
+					\end{center}
+					\begin{center}
+						{\large\bfseries\textcolor{burgundycolor}{ Veidots izmantojot TeXstudio - A LaTeX editor, https://www.texstudio.org/}}
+					\end{center}
+				\end{tcolorbox}
+			\end{minipage}
+		}; % End of the big node
+	\end{tikzpicture}
+	
+\end{document}
