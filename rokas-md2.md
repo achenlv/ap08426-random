@@ -7,12 +7,12 @@ Uzdevums: izveidot kagglenotebook, kas veic un demonstrē sekojošu funkcionalit
 - Šo datu ielasīšanu no failiem
 - Datu apkopošanu un reprezentāciju DataSet klasēs (atsevišķi gan apmācības, gan validācijas kopu)
   - Datu formāts, ko varēs vēlāk lietot apmācībai
-* Palīgfunkcijas, kas vēlāk lielā projekta izstrādē ļaus veikt manuālu analīzi un risinājuma testēšanu:
-** Izrēķināt un parādīt statistiku par datiem - cik apmācības un validācijas kopā ir no katras klases
-** Atrast un vizualizēt vairākas bildes no katras klases gadījuma izlasē - parādīt gan bildi, gan pareizo atbildi
-** Pielietot modeli (pagaidām tukšu "placeholder", kas dod random atbildi) validācijas kopai un novērtēt rezultātus
-** Parādīt rezultātus - gadījuma izlasē vairākas bildes, pie tām norādot pareizo atbildi un to, kas modelim sanāca
-** Kļūdu analīze - parādīt no katras pirkstu kategorijas dažas bildes, kas tika nepareizi atpazītas
+- Palīgfunkcijas, kas vēlāk lielā projekta izstrādē ļaus veikt manuālu analīzi un risinājuma testēšanu:
+  - Izrēķināt un parādīt statistiku par datiem - cik apmācības un validācijas kopā ir no katras klases
+  - Atrast un vizualizēt vairākas bildes no katras klases gadījuma izlasē - parādīt gan bildi, gan pareizo atbildi
+  - Pielietot modeli (pagaidām tukšu "placeholder", kas dod random atbildi) validācijas kopai un novērtēt rezultātus
+  - Parādīt rezultātus - gadījuma izlasē vairākas bildes, pie tām norādot pareizo atbildi un to, kas modelim sanāca
+  - Kļūdu analīze - parādīt no katras pirkstu kategorijas dažas bildes, kas tika nepareizi atpazītas
 
 Datu kopu pārvaldība apskatīta 5. lekcijas materiālos.
 [Kaggle paraudziņš dažām noderīgām funkcijām (failu atvēršana no kaggle datu kopas, vairāku attēlu vizualizācija grid) šeit](https://www.kaggle.com/code/peterisp/demo-darbam-ar-att-liem)
