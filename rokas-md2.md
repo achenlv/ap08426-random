@@ -4,9 +4,9 @@
  
 Uzdevums: izveidot kagglenotebook, kas veic un demonstrē sekojošu funkcionalitāti:
 
-* Šo datu ielasīšanu no failiem
-* Datu apkopošanu un reprezentāciju DataSet klasēs (atsevišķi gan apmācības, gan validācijas kopu)
-** Datu formāts, ko varēs vēlāk lietot apmācībai
+- Šo datu ielasīšanu no failiem
+- Datu apkopošanu un reprezentāciju DataSet klasēs (atsevišķi gan apmācības, gan validācijas kopu)
+-- Datu formāts, ko varēs vēlāk lietot apmācībai
 * Palīgfunkcijas, kas vēlāk lielā projekta izstrādē ļaus veikt manuālu analīzi un risinājuma testēšanu:
 ** Izrēķināt un parādīt statistiku par datiem - cik apmācības un validācijas kopā ir no katras klases
 ** Atrast un vizualizēt vairākas bildes no katras klases gadījuma izlasē - parādīt gan bildi, gan pareizo atbildi
